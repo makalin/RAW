@@ -1,6 +1,6 @@
 <div align="center">
 
-![RAW Logo](./assets/logo.png)
+![RAW Logo](./logo.png)
 
 # RAW 🥩
 
@@ -183,7 +183,7 @@ RAW parses your HTML template once. It separates the **Static** parts (cached fo
 
 ### 3. Native Speed
 
-We use standard browser APIs (`document.createElement`, `EventDelegation`). If the browser gets faster, RAW gets faster.
+Project uses standard browser APIs (`document.createElement`, `EventDelegation`). If the browser gets faster, RAW gets faster.
 
 ---
 
