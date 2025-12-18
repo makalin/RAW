@@ -1,0 +1,85 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "description": "The Naked Performance Engine - Zero Virtual DOM, Zero Hydration, 100% Browser Power",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./computed": {
+      "import": "./dist/computed.js",
+      "types": "./dist/computed.d.ts"
+    },
+    "./effect": {
+      "import": "./dist/effect.js",
+      "types": "./dist/effect.d.ts"
+    },
+    "./forms": {
+      "import": "./dist/forms.js",
+      "types": "./dist/forms.d.ts"
+    },
+    "./router": {
+      "import": "./dist/router.js",
+      "types": "./dist/router.d.ts"
+    },
+    "./store": {
+      "import": "./dist/store.js",
+      "types": "./dist/store.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils.js",
+      "types": "./dist/utils.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && npm run build:bundles",
+    "build:bundles": "vite build",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "framework",
+    "reactive",
+    "signals",
+    "performance",
+    "no-vdom",
+    "zero-hydration",
+    "typescript",
+    "spa",
+    "frontend"
+  ],
+  "author": "Mehmet T. AKALIN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makalin/RAW.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitest/coverage-v8": "^1.0.4",
+    "eslint": "^8.56.0",
+    "jsdom": "^23.0.1",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

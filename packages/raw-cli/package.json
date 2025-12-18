@@ -1,0 +1,29 @@
+{
+  "name": "raw-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for creating RAW projects",
+  "type": "module",
+  "bin": {
+    "raw-cli": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "raw",
+    "cli",
+    "scaffold"
+  ],
+  "author": "Mehmet T. AKALIN",
+  "license": "MIT",
+  "dependencies": {
+    "raw": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
+
