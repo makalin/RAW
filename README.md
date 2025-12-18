@@ -2,9 +2,7 @@
 
 ![RAW Logo](./logo.png)
 
-# RAW 🥩
-
-### **The Naked Performance Engine.**
+### **RAW: The Naked Performance Engine.**
 
 </div>
 
@@ -187,6 +185,38 @@ Project uses standard browser APIs (`document.createElement`, `EventDelegation`)
 
 ---
 
+## 📋 TODO / Roadmap
+
+### Planned Features
+
+- [ ] Server-side rendering (SSR) support
+- [ ] DevTools browser extension
+- [ ] TypeScript template literal types for better IDE support
+- [ ] More built-in form validators
+- [ ] Animation utilities
+- [ ] Internationalization (i18n) helpers
+- [ ] Web Components integration
+- [ ] Build-time optimizations
+- [ ] More example projects
+- [ ] Performance benchmarks vs other frameworks
+
+### Improvements
+
+- [ ] Enhanced computed signal dependency tracking
+- [ ] Better error messages and debugging
+- [ ] Documentation improvements
+- [ ] More test coverage
+- [ ] Bundle size optimizations
+
+### Community
+
+- [ ] Community examples gallery
+- [ ] Video tutorials
+- [ ] Discord/Slack community
+- [ ] Blog posts and articles
+
+---
+
 ## 🤝 Contributing
 
 Burning the old forest to plant something new.
@@ -194,6 +224,8 @@ Burning the old forest to plant something new.
 1. Fork it.
 2. Create a branch (`feature/laser-updates`).
 3. Submit a PR.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 **Author:** [Mehmet T. AKALIN](https://github.com/makalin)
 **License:** MIT
