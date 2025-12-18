@@ -207,13 +207,7 @@ Project uses standard browser APIs (`document.createElement`, `EventDelegation`)
 - [ ] Documentation improvements
 - [ ] More test coverage
 - [ ] Bundle size optimizations
-
-### Community
-
-- [ ] Community examples gallery
 - [ ] Video tutorials
-- [ ] Discord/Slack community
-- [ ] Blog posts and articles
 
 ---
 
